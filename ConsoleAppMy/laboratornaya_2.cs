@@ -1,5 +1,7 @@
-// лаба 2
+// лаба 2 26.09.
 // 1 задание
+// Дана последовательность из n  элементов для не меньше 3. Определить количество локальных минимумов
+
 
 // using System;
 // class exercise_1{
@@ -35,10 +37,11 @@
 //     }
 //     Console.WriteLine(cnt);
 //   }
-
 // }
 
 
+// Задание 2
+// Дана последовательность из n  элементов для не меньше 3. Определить все ли элементы последовательности чётные
 // class exercise_2{
 //   static void Main() {
 //     Console.WriteLine("Ведите количество элементов:");
@@ -52,6 +55,9 @@
 //       else {Console.WriteLine("Какое-то число нечётное!");}
 //     } }
 
+
+// Задание 3
+// Дана последовательность из n  элементов для не меньше 3. Необходимо определить два максимума
 // class exercise_3{
 //   static void Main() {
 //     Console.WriteLine("Ведите количество элементов:");
@@ -65,14 +71,15 @@
 
 //       for (int i=0; i<n-2;i++){
 //         int chif = Convert.ToInt32(Console.ReadLine());
-//         if (chif>max_min){max_min=chif;}
-//         if (max_min>max_max) 
+//         if (chif>=max_min){max_min=chif;}
+//         if (max_min>=max_max) 
 //         {
 //         max_max = max_min - max_max;
 //         max_min = max_min - max_max;
 //         max_max = max_max + max_min;
 //         } } 
 
-//       Console.WriteLine(max_max);
-//       Console.WriteLine(max_min);
+//       Console.WriteLine($"Первый максимум: {max_max}");
+//       Console.WriteLine($"Второй максимум: {max_min}");
 //         } }
+

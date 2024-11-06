@@ -1,4 +1,5 @@
 
+// 12.09.
 // using System;
 
 // class one_exesize{
@@ -32,3 +33,4 @@
 //     Console.WriteLine(2*n*p+n*(2*l+2*m+l*n-l));
 //   }
 // }
+
